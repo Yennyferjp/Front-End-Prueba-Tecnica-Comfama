@@ -1,8 +1,17 @@
-# React + Vite
+# Prueba Técnica: Enlistar Ánimes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![alt text](image.png)
 
-Currently, two official plugins are available:
+Este proyecto es una página web diseñada para listar animes. La data proviene de un backend en Java, el cual se comunica con la interfaz de usuario a través de JSON mediante peticiones fetch.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Contiene una barra de busqueda donde los usuarios pueden buscar animes específicos utilizando el cuadro de búsqueda integrado.
+
+La página muestra una lista de animes indicando un mensaje de recomendación.
+
+
+## Tecnologías Utilizadas
+
+- **React - Vite**: Biblioteca de JavaScript utilizada para construir la interfaz de usuario.
+- **CSS Modules**: Metodología de CSS que permite el encapsulamiento de estilos.
+
+
